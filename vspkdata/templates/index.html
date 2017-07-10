@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<head>
+    {% block title %}<title>VSPK Database</title>{% endblock %}
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{% static "css/def_style.css" %}">
+</head>
+<body>
+<div id = "main">
+
+{% block content %}
+{% endblock %}
+
+{% block footer %}
+<footer>
+<h3>Copyright 2015-2016 by VSPK. За нарушение - расстрел на месте.</h3>
+</footer>
+{% endblock %}
+</div>
+</body>
+</html>
