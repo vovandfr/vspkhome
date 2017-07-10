@@ -4,3 +4,4 @@ from .activity import *
 from .person import *
 from .entity import *
 from .principal import *
+from .user import *

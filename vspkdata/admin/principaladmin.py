@@ -1,4 +1,4 @@
 from django.contrib import admin
-from vspkdata.models import Principal
+from vspkdata.models import User
 
-admin.site.register(Principal)
+admin.site.register(User)
