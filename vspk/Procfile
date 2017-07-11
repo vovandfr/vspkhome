@@ -1,0 +1,1 @@
+web: gunicorn vspk.wsgi --log-file -

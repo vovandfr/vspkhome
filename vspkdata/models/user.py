@@ -15,7 +15,7 @@ class User(AbstractBaseUser):
 
     class Meta():
         verbose_name = 'Пользователь'
-        verbose_name_plural = 'Пользователь'
+        verbose_name_plural = 'Пользователи'
 
     USERNAME_FIELD = 'username'
 

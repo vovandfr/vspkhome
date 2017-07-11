@@ -1,1 +1,1 @@
-from .startpage import startpage
+from .startpage import *

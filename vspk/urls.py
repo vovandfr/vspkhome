@@ -19,5 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^', include('vspkdata.urls')),
     url(r'^vspk/', include('vspkdata.urls')),
+    url(r'^ll/', include('learning_logs.urls', namespace='learning_logs')),
+    url(r'^users/', include('users.urls', namespace='users')),
     url(r'^admin/', admin.site.urls),
 ]
