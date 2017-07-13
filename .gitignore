@@ -1,3 +1,4 @@
 backup/
 mytweet/
+__pycache__/
 *.sqlite3
