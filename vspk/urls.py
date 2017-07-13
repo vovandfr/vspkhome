@@ -17,9 +17,10 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^', include('vspkdata.urls')),
+    url(r'^', include('learning_logs.urls', namespace='learning_logs')),
     url(r'^vspk/', include('vspkdata.urls')),
+    url(r'^admin/', include('vspkdata.urls')),
     url(r'^ll/', include('learning_logs.urls', namespace='learning_logs')),
     url(r'^users/', include('users.urls', namespace='users')),
-    url(r'^admin/', admin.site.urls),
+    url(r'^dowtf/', admin.site.urls),
 ]
