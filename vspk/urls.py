@@ -22,5 +22,6 @@ urlpatterns = [
     url(r'^admin/', include('vspkdata.urls')),
     url(r'^ll/', include('learning_logs.urls', namespace='learning_logs')),
     url(r'^users/', include('users.urls', namespace='users')),
+    url(r'^tweets/', include('mytweet.urls', namespace='tweets')),
     url(r'^dowtf/', admin.site.urls),
 ]

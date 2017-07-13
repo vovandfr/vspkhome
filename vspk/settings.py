@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'vspkdata.apps.VspkdataConfig',
     'learning_logs.apps.LearningLogsConfig',
     'users.apps.UsersConfig',
+    'mytweet.apps.MytweetConfig',
     'bootstrap3',
 ]
 
