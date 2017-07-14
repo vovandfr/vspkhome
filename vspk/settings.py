@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#$9ax-olm$!9_a)p8pau98!_i(b%le5^#d85rfh9qd9b#2e@si'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'vspk.pythonanywhere.com']
 
 
 # Application definition
