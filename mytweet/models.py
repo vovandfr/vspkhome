@@ -16,3 +16,15 @@ class Tweets(models.Model):
 
     def __str__(self):
         return self.text
+
+
+class HashTag(models.Model):
+    """HashTag model"""
+    name = models.CharField(max_length=64, unique=True)
+    tweet = models.ManyToManyField(Tweets)
+
+    class Meta():
+        verbose_name_plural = 'HashTags'
+
+    def __str__(self):
+        return self.name
